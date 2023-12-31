@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 lspci="$(lspci -nn | grep '\[03')" # https://pci-ids.ucw.cz/read/PD/03
 
